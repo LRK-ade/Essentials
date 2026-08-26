@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: TetrisBlockTest.ma
-//Last modified: Wed, Aug 26, 2026 03:38:41 PM
+//Last modified: Wed, Aug 26, 2026 03:39:24 PM
 //Codeset: 1252
 requires maya "2027";
 currentUnit -l centimeter -a degree -t film;
@@ -9,19 +9,19 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202604221258-70da84b25e";
 fileInfo "osv" "Windows 11 Enterprise v2009 (Build: 26200)";
-fileInfo "UUID" "DCBAB30B-437D-DC74-D615-05981C48EC01";
+fileInfo "UUID" "CD02A553-4D46-D5EC-166A-0684959F65A4";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "C8F0C26B-49CA-A231-ECAC-67BE38264124";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 2.8060941486727167 8.302796750876082 0.17459332659844917 ;
+	setAttr ".t" -type "double3" 2.8653190946244589 5.7668599147296788 0.12126694574020844 ;
 	setAttr ".r" -type "double3" -91.799999999998718 131.99999999998462 0 ;
 	setAttr ".rpt" -type "double3" -8.9142608100800714e-16 -6.2586089162317569e-16 -2.3336283476324887e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "6832C2CB-43B2-0208-C5E9-ADAA2CFB0EDC";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 8.3068957024533727;
+	setAttr ".coi" 5.7697069168005104;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
