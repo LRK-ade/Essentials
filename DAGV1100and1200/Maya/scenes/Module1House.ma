@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: Module1House.ma
-//Last modified: Wed, Sep 23, 2026 03:44:29 PM
+//Last modified: Wed, Sep 23, 2026 03:47:38 PM
 //Codeset: 1252
 file -rdi 1 -ns "Table" -rfn "TableRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Luke Knotts/GitRepos/Essentials/DAGV1100and1200/Maya//scenes/Table.ma";
 file -rdi 1 -ns "Chair" -rfn "ChairRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Luke Knotts/GitRepos/Essentials/DAGV1100and1200/Maya//scenes/Chair.ma";
@@ -30,13 +30,13 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202604221258-70da84b25e";
 fileInfo "osv" "Windows 11 Enterprise v2009 (Build: 26200)";
-fileInfo "UUID" "80AD5CE5-48B4-6BE6-A296-DE9BF07B3DF4";
+fileInfo "UUID" "2CBCB2B8-43D0-D907-C873-BFA5EAB6B0AE";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "EB4FC2FB-4C39-7B12-3718-449459D8B781";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -30.442623763900155 37.369664343909392 -25.557906188827939 ;
-	setAttr ".r" -type "double3" 143.5356103172463 -51.799999999999777 180 ;
+	setAttr ".t" -type "double3" -30.366231758084758 33.313166681632104 -29.828899046617604 ;
+	setAttr ".r" -type "double3" 148.93561031724673 -47.399999999999807 179.99999999999997 ;
 	setAttr ".rp" -type "double3" 6.591949208711867e-16 -5.3290705182007514e-15 0 ;
 	setAttr ".rpt" -type "double3" 1.1022903043090351e-15 6.9021632903632163e-15 -5.3945601825776454e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
